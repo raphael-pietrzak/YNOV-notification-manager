@@ -10,6 +10,7 @@ export default class ClockService {
   }
   
   sameWeek(date1: Date, date2: Date): boolean {
+    
     const startOfWeek1 = new Date(date1);
     startOfWeek1.setDate(date1.getDate() - (date1.getDay()+6)%7);
     const startOfWeek2 = new Date(date2);
