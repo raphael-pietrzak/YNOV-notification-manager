@@ -1,0 +1,9 @@
+coverage/
+jest.console.txt
+jest-results.json
+.idea/
+node_modules/
+build/
+library.iml
+package-lock.json
+yarn-error.log
