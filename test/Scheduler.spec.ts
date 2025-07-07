@@ -77,4 +77,8 @@ describe('Scheduler', () => {
     // assertion
     expect(executionOrder).toEqual([1,2]);
   })
+
+  it('should fail', async () => {
+    expect.assertions(1);
+  });
 })

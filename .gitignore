@@ -5,5 +5,4 @@ jest-results.json
 node_modules/
 build/
 library.iml
-package-lock.json
 yarn-error.log
